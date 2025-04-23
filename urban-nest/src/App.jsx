@@ -1,13 +1,16 @@
 import React from "react"
 
-function App() {
-  
+import Header from "./components/Header";
 
-  return (
-    <><h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-     </>
+
+function App() {
+   return (
+    <div className="w-full overflow-hidden">
+      <Header/>
+    </div>
+    
+    
+     
   )
 }
 
