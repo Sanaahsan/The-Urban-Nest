@@ -22,7 +22,7 @@ const Navbar=()=>{
             <img src={assets.logo}/>
                 <ul className="hidden md:flex gap-7 text-white">
                     <a href="#Header" className="cursor-pointer hover:text-gray-400">Home</a>
-                    <a href="About" className="cursor-pointer hover:text-gray-400">About</a>
+                    <a href="#About" className="cursor-pointer hover:text-gray-400">About</a>
                     <a href="#Projects" className="cursor-pointer hover:text-gray-400">Projects</a>
                     <a href="#Testimonials" className="cursor-pointer hover:text-gray-400">Testimonials</a>
                 </ul>
@@ -36,6 +36,7 @@ const Navbar=()=>{
             <img onClick={()=>setshowMobileMenu(false)} src={assets.cross_icon} className="w-6 "/>
            </div>
             <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
+            {/* onclick attribute used so that whenever we click on either home.about etc.the menu bar collapses */}
                 <a onClick={()=>setshowMobileMenu(false)} href="Header" className="px-4 py-2 rounded-full inline-block">Home</a>
                 <a onClick={()=>setshowMobileMenu(false)} href="#About" className="px-4 py-2 rounded-full inline-block">About</a>
                 <a onClick={()=>setshowMobileMenu(false)} href="#Projects" className="px-4 py-2 rounded-full inline-block">Projects</a>
