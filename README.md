@@ -36,7 +36,7 @@ Whether you're building a property rental marketplace, a realtor’s portfolio, 
 - **Backend**: Node.js, Express.js  
 - **Database**: MongoDB (NoSQL)  
 - **Authentication**: JSON Web Tokens (JWT)  
-- **Hosting/Deployment**: Vercel (Frontend), Render/Heroku (Backend)
+- **Hosting/Deployment**: Vercel (Frontend)
 
 
 
