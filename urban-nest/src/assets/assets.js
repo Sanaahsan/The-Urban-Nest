@@ -88,7 +88,7 @@ export const projectsData = [
         image: profile_img_2,
         alt: "Portrait of Richard Nelson",
         rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "The team at Urban Nest made the entire home-buying experience smooth and enjoyable. They listened to my needs, offered expert advice, and found me a property that exceeded my expectations. Truly a top-notch service!"
     },
     {
         name: "James Washington",
@@ -96,6 +96,6 @@ export const projectsData = [
         image: profile_img_3,
         alt: "Portrait of James Washington",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "I couldn’t be happier with the service I received from Urban Nest. From start to finish, they were professional, responsive, and genuinely cared about finding me the right home. I felt supported every step of the way."
     }
 ];
