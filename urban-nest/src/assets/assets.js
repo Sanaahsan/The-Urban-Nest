@@ -17,7 +17,7 @@ import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
 import newLogo from './newLogo.png'
-
+import background_pic from './background_pic.jpg'
 export const assets = {
     logo,
     logo_dark,
@@ -32,7 +32,8 @@ export const assets = {
     project_img_4,
     left_arrow,
     right_arrow,
-    newLogo
+    newLogo,
+    background_pic
 }
 
 export const projectsData = [
